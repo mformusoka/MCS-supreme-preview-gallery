@@ -1,0 +1,75 @@
+
+
+html {
+  font-family: "Courier New",Courier,Monaco, serif;
+  font-size: 11px;
+  user-select: none;
+
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    width: 320px;
+  }
+  .header {
+    margin-top: 15px;
+  }
+}
+.container {
+  margin: 0 auto;
+  max-width: 620px;
+}
+
+.header {
+  margin-top: 28px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+.time {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.main img {
+  display: inline-block;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  opacity: .3;
+  transition-property: opacity;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+}
+.main img:hover {
+  opacity: 1;
+}
+
+.main {
+  line-height: 0;
+  margin-bottom: 40px;
+}
+
+.footer a {
+
+  text-decoration: none;
+  color: black;
+  transition-property: background-color;
+  transition-duration: .5s;
+}
+
+.footer a:hover {
+  color: #fff;
+  background-color: red;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.navigation .lastlink {
+  margin-right: 41px;
+}
+
+.navigation .lookbook {
+     color: red;
+   }
