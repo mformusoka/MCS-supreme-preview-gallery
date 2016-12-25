@@ -31,3 +31,10 @@ html {
   height: 100%;
   width: 300%;
 }
+pre {
+  padding: 10px;
+  border-left: 2px solid #69c;
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+}
