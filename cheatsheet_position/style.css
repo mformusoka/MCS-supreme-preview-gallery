@@ -1,0 +1,33 @@
+body {
+margin: 0 auto;
+max-width: 500px;
+line-height: 1.5;
+padding: 40px 10px;
+color: #555
+}
+h1,
+h2,
+strong {
+  color: #333;
+}
+h2 {
+  margin-top: 10px;
+  padding-top: 1em;
+}
+html {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+.uptop {
+  position: fixed;
+  bottom: 0px;
+  right: 100px;
+}
+.modal {
+  background: #eee;
+  opacity: .4;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 300%;
+}

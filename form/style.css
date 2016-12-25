@@ -1,0 +1,33 @@
+input[type="text"] {
+  display: block;
+  background: #cdcdcd;
+  border: 2px;
+}
+input[type="submit"] {
+  margin-top: 50px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 2px;
+  background: #bada55;
+  color: white;
+
+}
+.button {
+  margin-top: 50px;
+  display: block;
+  border: none;
+  width: 100px;
+  height: 50px;
+  background: green;
+  box-shadow: 0 1px 2px black;
+}
+
+.button:hover {
+  background: #04ba04;
+}
+
+.button:active {
+  box-shadow: none;
+  outline: none;
+}
